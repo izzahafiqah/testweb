@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>QnA Section</title>
+	
+<script>
+		
+	/*	function validateform()
+		{
+			var x = true;
+			if(document.myform.fname.value=="")
+				{
+					alert("Please fill in the blank 😉 " )
+					document.myform.fname.focus();
+					x = false;
+				}
+			 if(document.myform.fav.value=="")
+				{
+					alert("Please choose something! 😞")
+					document.myform.fav.focus();
+					x=false;
+				}
+			 if(document.myform.list.value=="")
+				{
+					alert("Please type something in there dear 😥")
+					document.myform.list.focus();
+					x=false;
+				}
+			if(document.myform.mcreature.value=="")
+				{
+					alert("Seems like you are not interest with the question, yeah? 🤔")
+					document.myform.mcreature.focus();
+					x=false;
+				}
+			 
+			} */
+	
+	       function validateform()
+	       {
+			   var a = document.forms["myform"]["fname"].value;
+			   var b = document.forms["myform"]["fav"].value;
+			   var c = document.forms["myform"]["list"].value;
+			   
+			   
+			   if(a == "")
+				   {
+					   alert("Please fill in the blank 😉");
+					   return false;
+				   }
+			   if(b == "")
+				   {
+					   alert("Please choose something! 😞");
+					   return false;
+				   }
+			   if(c == "")
+				   {
+					   alert("Please type something in there dear 😥");
+					   return false;
+				   }
+			
+           }
+	  
+	</script>
+	
+	
+<link href="p2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body background="AuNzbX.jpg">
+	<h1 align="center" class="hd2"><br>QnA SECTION!<br><br></h1>
+	
+	
+	<form id="myform" name="myform" action="Page 5.html" method="get" onSubmit="return validateform()">
+	
+    <ol type="1" class="ol2">
+		
+	<hr size="3" color=" #FF9800">
+	<p align="justify" class="p8">Here's some music to listen to as you answer the question. If you are curious, the audio clip below, titled "How To Train Your Dragon - Test Drive by John Powell",<br> was originally played in the first film! But yes! The producers continue to use it in all of the movies!<br> Every time it played, it brought back memories for me.🥺</p>
+	
+<audio controls class="audi1" align="center">
+	<source src= "How to Train Your Dragon - Flying Theme (HQ).mp3" type="audio/mpeg">
+</audio>
+	
+<p class="p9">And now! Please answer the following questions before proceeding to the next page! There is nothing wrong to get to know each other, right?<br> It won’t take that long, I swear! It has 5 questions only!  </p>
+		
+		<p>
+	  <li>First question are usually an obvious question, right? If you don't mind...What's your name?👀 </li>
+			
+		    <label for="textfield"></label>
+			<input type="text" name="fname" id="textfield">
+		</p>
+		
+		<p>
+	  <li>What were your thoughts when you first read (such a long phrase) from the previous page?</li>
+		<p>
+			  <label>
+			    <input type="radio" name="thought" value="radio" id="RadioGroup1_0" required>
+			    Good</label>
+			  <br>
+			  <label>
+			    <input type="radio" name="thought" value="radio" id="RadioGroup1_1" required>
+			    Bad</label>
+			  <br>
+			  <label>
+			    <input type="radio" name="thought" value="radio" id="RadioGroup1_2" required>
+			    Not even bother to look at it</label>
+			  <br>
+			  <label>
+			    <input type="radio" name="thought" value="radio" id="RadioGroup1_3" required>
+			    I'm speechless!</label>
+			  <br>
+			  <label>
+			    <input type="radio" name="thought" value="radio" id="RadioGroup1_4" required>
+			    Huh?</label>
+			  <br>
+      </p>
+		</p>
+		
+		<p>
+		<li>Do you have any favourite childhood movie?</li>
+		
+		<p>
+			<select name="fav" type="select" id="select">
+				<option>Yes</option>
+				<option>No</option>
+				<option>Maybe</option>
+				<option>I don't know</option>
+				<option>The movie is dead now 😭 </option>
+			</select>
+			
+		</p>
+		</p>
+		
+	    <p>
+		<li>If you have any, maybe you can list them down here! :D</li>
+			<label for="textarea"></label>
+			<textarea name="list" id="textarea" rows="7" cols="48" wrap="physical"></textarea>
+	
+	    </p>
+	
+	    <p>
+	    <li>Do you have any favourite mythical creatures?</li>
+		<p>
+			  <label>
+			    <input type="checkbox" name="mcreature" value="checkbox" id="CheckboxGroup1_0" >
+			    Dragon</label>
+			  <br>
+			  <label>
+			    <input type="checkbox" name="mcreature" value="checkbox" id="CheckboxGroup1_1" >
+			    Unicorn</label>
+			  <br>
+			  <label>
+			    <input type="checkbox" name="mcreature" value="checkbox" id="CheckboxGroup1_2" >
+			    Mermaid</label>
+			  <br>
+			  <label>
+			    <input type="checkbox" name="mcreature" value="checkbox" id="CheckboxGroup1_3" >
+			    Werewolf</label>
+			  <br>
+			  <label>
+			    <input type="checkbox" name="mcreature" value="checkbox" id="CheckboxGroup1_4" >
+			    Fairy</label>
+			  <br>
+			  <label>
+			    <input type="checkbox" name="mcreature" value="checkbox" id="CheckboxGroup1_5" >
+			    Gnome</label>
+			  <br>
+			  <label>
+			    <input type="checkbox" name="mcreature" value="checkbox" id="CheckboxGroup1_6" >
+			    Pegasus</label>
+			  <br>
+			  <label>
+			    <input type="checkbox" name="mcreature" value="checkbox" id="CheckboxGroup1_7" >
+			    Sea dragon</label>
+			  <br>
+			  <label>
+			    <input type="checkbox" name="mcreature" value="checkbox" id="CheckboxGroup1_8" >
+			    Phoenix</label>
+			  <br>
+			  <label>
+			    <input type="checkbox" name="mcreature" value="checkbox" id="CheckboxGroup1_9" >
+			    Hydra</label>
+			  <br>
+			<li>Would you like to give a try on watching How To Train Your Dragons movies? (You better be!)</li>
+	  <p>
+			  <label>
+			    <input type="radio" name="opinion" value="radio" id="RadioGroup2_0" required>
+			    Yes</label>
+			  <br>
+			  <label>
+			    <input type="radio" name="opinion" value="radio" id="RadioGroup2_1" required>
+			    No</label>
+			  <br>
+			  <label>
+			    <input type="radio" name="opinion" value="radio" id="RadioGroup2_2" required>
+			    Maybe?</label>
+			  <br>
+	  </p>
+</p>
+         </p>
+	
+	    
+	
+	</ol>
+    
+    <p>
+		<input type="reset" name="reset" id="reset" value="Reset">
+	  <input type="submit" name="submit" id="submit" value="Submit">
+    </p>
+	</form>
+<hr size="3" color="#FF9800">
+
+
+<a href="Page 5.html"> <img src="kisspng-portable-network-graphics-scalable-vector-graphics-flecha-tumblr-png-edits-portadas-blanco-rayas-5ba5348d218f96.3865073615375535491375 (2).png" width="150" height="100" alt="" align="right" /></a>
+	
+<a href="Page 3.html"> <img src="kisspng-portable-network-graphics-scalable-vector-graphics-flecha-tumblr-png-edits-portadas-blanco-rayas-5ba5348d218f96.3865073615375535491375.png" width="150" height="100" alt=""  /></a> 
+</body>
+</html>

@@ -1,0 +1,25 @@
+@charset "utf-8";
+.hd1 {
+    border-top-width: thick;
+    font-family: chango;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #C83B3E;
+    background-size: 50cm 50cm;
+    background-repeat: repeat-x;
+    height: auto;
+    width: auto;
+    background-image: url(purple.jpg), -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(211,9,9,1.00) 100%);
+    background-image: url(purple.jpg), -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(211,9,9,1.00) 100%);
+    background-image: url(purple.jpg), -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(211,9,9,1.00) 100%);
+    background-image: url(purple.jpg), linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(211,9,9,1.00) 100%);
+}
+
+.hd2 {
+    background-color: #B84A4B;
+    background-image: url(sunset.jpg);
+    font-family: broadway;
+    font-style: normal;
+    font-weight: 400;
+    color: #F9F9F9;
+}

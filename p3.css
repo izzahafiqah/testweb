@@ -1,0 +1,53 @@
+@charset "utf-8";
+.p1 {
+    color: #040404;
+    font-family: germania-one;
+    font-style: normal;
+    font-weight: 400;
+    right: auto;
+}
+.img5{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.vid1{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.img6{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.hd4{
+    font-family: broadway;
+    background-image: url( "dean1.PNG");
+	
+}
+.pp1{
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    line-height: 0.6cm;
+    color: #FFFFFF;
+}
+.pp2{
+    
+    color: #FFFFFF;
+}
+.pp3{
+	color: #FFFFFF;
+}
+.pp4{
+    color: #F48285;
+}
+.pp6{
+    color: #EF5156;
+}
+.pp9{
+	color: #F48285;
+}
+ 
+
+
+

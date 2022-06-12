@@ -1,0 +1,145 @@
+@charset "utf-8";
+.container
+{
+	margin: 10px auto;
+	width: 95%;
+	padding: 10px;
+}
+
+.p1 
+{
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.7cm;
+	
+}
+
+.img1 
+{
+	float:left;
+	width: 350px;
+	height: 460px;
+	padding: 0 10px 0 0;
+}
+
+.img2 
+{
+	float:right;
+	width: 350px;
+	height: 460px;
+	padding: 0 10px 0 0;
+}
+.img3
+{
+	float:left;
+	width: 350px;
+	height: 460px;
+	padding: 0 10px 0 0;
+}
+.p3 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.7cm;
+}
+.p2 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    line-height: 0.6cm;
+    color: #000000;
+}
+.p4 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    line-height: 0.6cm;
+    color: #A14BCA;
+}
+.p5 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    line-height: 0.6cm;
+}
+.p6 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    line-height: 0.6cm;
+}
+.p7 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+	line-height: 0.6cm;
+}
+.ol1 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+	line-height: 0.6cm;
+	
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+.p8 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.6cm;
+    color: #D37A7B;
+}
+.p9 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	line-height: 0.6cm;
+}
+.ol2 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	line-height: 0.6cm;
+	
+	
+	
+}
+.container {
+}
+.ol2 {
+	
+    color: #D37A7B;
+}
+.img4 
+{
+  display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.p10 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	line-height: 0.6cm;
+}
+.hdd {
+    font-family: broadway;
+    background-image: url("purple3.png");	
+}
+.arrow{
+	
+    	
+}
+.p11{
+    font-family: cooper-black-std;
+    font-style: normal;
+    font-weight: 400;
+}
+.p12{
+	font-family: cooper-black-std;
+	color: #A14BCA;
+}
+.audi1{
+	
+	
+  display: block;
+	margin-left: auto;
+	margin-right: auto;}.hd1 {
+}
+.hd2{
+    font-family: broadway;
+    background-image: url(banner2.2.PNG);	
+	color: #FFFFFF
+}
